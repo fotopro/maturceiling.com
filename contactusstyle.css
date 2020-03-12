@@ -1320,3 +1320,293 @@ opacity: 1;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------iphone 7-------------------------------------*/
+
+@media (max-width: 375px) and (max-height: 667px) {
+#adaptburg{
+	display: block;	
+	color: #dd2e1a;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 33px;
+    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    vertical-align: baseline;
+    height: 100px;
+    padding-left:15px;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-top: 1rem;
+     }
+
+
+
+
+#logo{
+	width:230px;
+	height:60px;
+	margin-top: -1px;
+	margin-left: -5rem;
+}
+
+#icons {
+    margin-right: -17.6rem;
+}
+
+#menu{
+	display: none;
+}
+
+
+
+#cntsmain h2{
+	font-size: 30px;
+	margin-left: 4%
+
+}
+
+#contactscontent{
+	flex-direction: column;
+}
+#p3wrapper{
+	display: none;
+}
+
+#cnts1c{
+width: 86vw;
+margin-left: 1.6rem;
+}
+#cnts2c{
+	width: 86vw;
+margin-left: 1.8rem;
+margin-top: 1rem;
+}
+#cnts2c h1{
+	margin-bottom: 15px;
+}
+
+#scrolltotop{
+	bottom: 18%;
+	right: 13%;
+}
+.footer4p{
+	margin-top: 100%;
+	min-width: 400px;
+}
+.footer4ptext{
+	margin-left: -4rem;
+	font-size: 7px;
+}
+
+#btnsubm{
+	margin-top: 1rem;
+}
+#hiddenmenu{
+	list-style: none;
+	padding-right: 180px;
+	width:200px;
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	margin-left: -18rem;
+	height: 70vh;
+	padding-top: 50px;
+}
+#hiddenmenu a{
+	 font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	 text-decoration: none;
+	 color:rgba(0,0,0,0.8);
+	  font-size:30px;
+	 border:none; 
+	}
+	#hiddenmenu li{
+		
+		padding-bottom: 60px;
+	}
+	#hiddenmenu:first-child{
+		padding-top: 3rem;
+	}
+
+	#x{
+		float: right;
+		margin-right:-4rem;
+		font-size: 35px;
+		}
+#x:hover{
+cursor: pointer;
+}
+
+@keyframes hidmenuappear{
+from{
+opacity: 0;
+	}
+	to{
+opacity: 1;
+	}	
+}
+
+
+
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------landscape     iphone7-------------------------------------*/
+
+@media (max-width: 667px) and (max-height: 375px) and (orientation:landscape)  {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    max-height: 100vh;
+    overflow-y: hidden;
+  }
+#adaptburg{
+	display: block;	
+	color: #dd2e1a;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 33px;
+    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    vertical-align: baseline;
+    height: 100px;
+    padding-left:15px;
+    text-decoration: none;
+    margin-left: 3rem;
+    margin-top: 1rem;
+     }
+
+
+
+
+#logo{
+	width:230px;
+	height:60px;
+	margin-top: -1px;
+	margin-left: -5rem;
+}
+
+#icons {
+    margin-right: -15.1rem;
+}
+
+#menu{
+	display: none;
+}
+
+
+
+#cntsmain h2{
+	font-size: 30px;
+	margin-left: 4%
+
+}
+
+#contactscontent{
+	flex-direction: column;
+}
+#p3wrapper{
+	display: none;
+}
+
+#cnts1c{
+width: 86vw;
+margin-left: 1.6rem;
+}
+#cnts2c{
+	width: 86vw;
+margin-left: 1.8rem;
+margin-top: 1rem;
+}
+#cnts2c h1{
+	margin-bottom: 15px;
+}
+
+
+.footer4p{
+	margin-top: 100%;
+	min-width: 400px;
+}
+.footer4ptext{
+	margin-left: -4rem;
+	font-size: 7px;
+}
+
+#btnsubm{
+	margin-top: 1rem;
+}
+#hiddenmenu{
+	list-style: none;
+	padding-right: 180px;
+	width:200px;
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+	margin-left: -18rem;
+	height: 70vh;
+	padding-top: 50px;
+}
+#hiddenmenu a{
+	 font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	 text-decoration: none;
+	 color:rgba(0,0,0,0.8);
+	  font-size:30px;
+	 border:none; 
+	}
+	#hiddenmenu li{
+		
+		padding-bottom: 60px;
+	}
+	#hiddenmenu:first-child{
+		padding-top: 3rem;
+	}
+
+	#x{
+		float: right;
+		margin-right:-4rem;
+		font-size: 35px;
+		}
+#x:hover{
+cursor: pointer;
+}
+
+@keyframes hidmenuappear{
+from{
+opacity: 0;
+	}
+	to{
+opacity: 1;
+	}	
+}
+}
+
+
+
+
+
